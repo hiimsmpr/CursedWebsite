@@ -36,3 +36,29 @@ flex-grow: .15;
 .discordBody{
     background-color: blue;
 }
+.cardDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 100%;
+}
+.topRow{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.topRowCard{
+    margin: 10px;
+}
+.bottomRow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bottomRowCard{
+    margin: 5px;
+}
+.mainBody{
+ 
+    width: 100%;
+}
