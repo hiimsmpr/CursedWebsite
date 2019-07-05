@@ -3,7 +3,7 @@ import React from 'react';
 
 function landingHome() {
   return (
-    <div className="landingFooter">
+    <div>
      landing Home
     </div>
   );

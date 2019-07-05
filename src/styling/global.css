@@ -1,15 +1,38 @@
 .landingBody {
-
+flex-grow: 2;
+background-color: #222C23;
+display: flex;
 }
 .landingNav{
-
+flex-grow: .1;
+background-color: #455644;
+color:white;
 }
 .landingFooter{
-
+background-color:  #455644;
+color: white;
+flex-grow: .15;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.landingHeader{
+    background-color:  #455644
+}
+.headerContainer{
+    display: flex;
+}
+.logo{
+    max-width: 200px;
 }
 .globalContainer{
     background-color: red;
-    min-height: 100%;
+    height:100vh;
     display:flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+.discordBody{
+    background-color: blue;
 }

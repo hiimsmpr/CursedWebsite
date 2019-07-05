@@ -14,12 +14,20 @@ function App() {
       <div className="globalContainer">
         <Header />
         <Nav />
+        <div className="landingBody">
+        <div className="discordBody">
+        DISCORD SPACE SAVER
+        </div>
+        <div className="mainBody">
         <Switch>
-        <Route exact path='/Home' component={Home} />
-        <Route exact path='/Test' component={Test} />
+          <Route exact path='/Home' component={Home} />
+          <Route exact path='/Test' component={Test} />
         </Switch>
-        <Footer />
-
+        </div>
+        </div>
+        <div className="landingFooter">
+          <Footer />
+        </div>
       </div>
     </Router>
   );
